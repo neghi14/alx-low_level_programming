@@ -8,7 +8,7 @@
  * Determine last digit and print text using if else
  *
  * Return: Always 0 (Success)
- * */
+ */
 int main(void)
 {
 	int n;
