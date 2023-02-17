@@ -6,7 +6,7 @@
  * main - Entry point
  *
  * header - stdlib, time and stdio is used
- * 
+ *
  * if..else.. statement to get value of n
  *
  * Return: Always 0 (Success)
@@ -17,11 +17,11 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if(n < 0)
+	if (n < 0)
 	{
 		printf("%d is negative\n", n);
 	}
-	else if(n > 0)
+	else if (n > 0)
 	{
 		printf("%d is positive\n", n);
 	}
