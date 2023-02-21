@@ -12,6 +12,17 @@
 
 int main(void)
 {
-	print_alphabet('a');
+	print_alphabet)
+	{
+		char c = 'a'
+
+		while (c <= 'z')
+		{
+			_putchar(c);
+			c++;
+		}
+		_putchar(10);
+		return (0);
+	}
 	return (0);
 }
