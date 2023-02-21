@@ -12,7 +12,7 @@
 
 int main(void)
 {
-	print_alphabet)
+	print_alphabet()
 	{
 		char c = 'a'
 
