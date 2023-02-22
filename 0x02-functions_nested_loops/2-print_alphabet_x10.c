@@ -10,12 +10,15 @@
 
 void print_alphabet_10x(void)
 {
-	char ch[] = "abcdefghijklmnopqrstuvwxyz";
+	char ch = 'a';
 	int i = 0;
 
 	while (i < 11)
 	{
+		for (ch = 'a'; ch <= 'z'; ch++)
+		{
 		_putchar(ch);
+		}
 		i++;
 		_putchar(10);
 	}
