@@ -19,5 +19,4 @@ void print_alphabet(void)
 			c++;
 		}
 		_putchar(10);
-		return (0);
 }
