@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * _islower - main entry
  *
  * Function to return 1 or 0 depending on answer;
@@ -15,7 +14,7 @@ int _islower(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
