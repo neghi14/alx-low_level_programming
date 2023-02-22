@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet_10x - main entry
+ * print_alphabet_x10 - main entry
  *
- * Funtion to print lower case letters from a-z 10x
+ * Function to print lower case letters from a-z 10x
  *
  *
  */
