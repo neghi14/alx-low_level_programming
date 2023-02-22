@@ -3,7 +3,9 @@
 /**
  * _isalpha - main function
  *
- * function to check if a value is an alphabet
+ * @c: first operand
+ *
+ * Description: function to check if a value is an alphabet
  *
  * Return: 1 if true and 0 if otherwise
  */

@@ -3,7 +3,9 @@
 /**
  * _islower - main entry
  *
- * Function to return 1 or 0 depending on answer;
+ * @c: first operand
+ *
+ * Description: Function to return 1 or 0 depending on answer;
  *
  * Return: 1 if c is lower and 0 if otherwise
  *
