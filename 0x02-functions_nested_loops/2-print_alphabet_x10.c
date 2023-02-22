@@ -15,7 +15,7 @@ void print_alphabet_10x(void)
 
 	while (i < 11)
 	{
-		_puthchar(ch);
+		_putchar(ch);
 		i++;
 		_putchar(10);
 	}
