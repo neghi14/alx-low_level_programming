@@ -15,11 +15,11 @@ int main(void)
 	{
 		if ((num % prim) == 0)
 		{
-			if((prim % 3) == 2)
+			if ((prim % 3) == 2)
 				printf(",%lu ", prim);
 		}
 
-		prim+=2;
+		prim += 2;
 	}
 
 	putchar('\n');
