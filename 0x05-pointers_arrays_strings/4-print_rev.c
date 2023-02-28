@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_rev - minic the stdio version of puts
  * @s: the value to process to the stdout in reverse.
@@ -14,9 +15,9 @@ void print_rev(char *s)
 
 	while (count--)
 	{
-		_putchar(*(s + (count)));
+		putchar(*(s + (count)));
 	}
-	_putchar('\n');
+	putchar('\n');
 }
 
 
