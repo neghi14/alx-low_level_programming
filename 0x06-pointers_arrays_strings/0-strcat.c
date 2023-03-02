@@ -7,17 +7,15 @@
 * function to concat two strings
 * Return: dest
 */
-char *_strcat(char *dest, char *src)
+char *strcat(char *dest, const char *src)
 {
-	int len;
-	int len2;
+	int index = 0, dest_len = 0;
 
-	for (len = 0; dest[len]; len++)
-		;
-	for (len2 = 0; src[len2]; len2++)
-	{
-		dest[len] = src[len2];
-		len++;
-	}
+	while (dest[index++])
+		dest_len++;
+
+	for (index = 0; src[index]; index++)
+		dest[dest_len++] = src[index];
+
 	return (dest);
 }
