@@ -1,13 +1,13 @@
-#include "holberton.h"
+#include "main.h"
 /**
-* _strncat - function
-* @dest: destination of copy
-* @src: source of copy
-* @n: string limit of copy
-*
-* Description: concats two strings together limited by n
-* Return: dest
-*/
+ * _strncat - function
+ * @dest: destination of copy
+ * @src: source of copy
+ * @n: string limit of copy
+ *
+ * Description: concats two strings together limited by n
+ * Return: dest
+ */
 char *_strncat(char *dest, char *src, int n)
 {
 	int len, len2;
@@ -18,7 +18,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		if (n > len2)
 			dest[len] = src[len2];
-			len++;
+		len++;
 	}
 	return (dest);
 }

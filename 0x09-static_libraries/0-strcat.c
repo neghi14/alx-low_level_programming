@@ -1,12 +1,12 @@
-#include "holberton.h"
+#include "main.h"
 /**
-* _strcat - function
-* @dest: add to string
-* @src: add from string
-*
-* function to concat two strings
-* Return: dest
-*/
+ * _strcat - function
+ * @dest: add to string
+ * @src: add from string
+ *
+ * function to concat two strings
+ * Return: dest
+ */
 char *_strcat(char *dest, char *src)
 {
 	int len;
